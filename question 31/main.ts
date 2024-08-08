@@ -1,0 +1,16 @@
+let username = ["subhan","ghaniya","arooba","zainab"]
+
+username = []
+
+if (username.length === 0){
+    console.log("Your array is empty we need to find some user!")
+}else{
+    username.forEach(oneuser => {
+        if (oneuser === "subhan"){
+            console.log(`Hello ${oneuser}, would you like to see a status report`)
+        }else{
+            console.log(`Hello ${oneuser}, thank you for logging in again`)
+        }
+    })
+}
+
